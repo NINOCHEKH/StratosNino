@@ -50,9 +50,8 @@ body::after {
 }
 #section-1 p {
   font-family: "Stratos";
-  font-weight: 100;
+  font-weight: 900;
   font-style: normal;
-  font-display: swap;
 }
 /* .navigation2 {
   margin: 0px 217px;

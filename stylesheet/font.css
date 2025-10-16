@@ -136,19 +136,12 @@
   font-display: swap;
 }
 
-/* Stratos Black Italic */
+/* Stratos bl */
 @font-face {
   font-family: "Stratos";
-  src: url("../font/Normal/StratosBlack/Stratos-Black.woff2") format("woff2");
-  src: url("../font/Normal/StratosBlack/Stratos-Black.eot");
-  src: url("../font/Normal/StratosBlack/Stratos-Black.eot#iefix")
-      format("embedded-opentype"),
-    url("../font/Normal/StratosBlack/Stratos-Black.woff") format("woff"),
-    url("../font/Normal/StratosExtraBold/stratos-extrabold.otf")
-      format("truetype");
+  src: url("../fonts/Stratos-Black.woff2") format("woff2");
   font-style: normal;
-  font-weight: 1000;
-  font-display: swap;
+  font-weight: 900;
 }
 
 /* ВСЕ ИТАЛИК */
