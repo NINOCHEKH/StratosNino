@@ -3,11 +3,13 @@
 /* Stratos Thin */
 @font-face {
   font-family: "StratosThin";
-  src: url("../font/Normal/StratosThin/Stratos-Thin.eot");
+  src: url("../font/Normal/StratosThin/Stratos-Thin.woff2") format("woff2");
+  src: url("../font/Normal/StratosThin/Stratos-Thin.woff") format("woff");
+  /* src: url("../font/Normal/StratosThin/Stratos-Thin.eot");
   src: url("../font/Normal/StratosThin/Stratos-Thin.eot?#iefix")
       format("embedded-opentype"),
-    url("../font/Normal/StratosThin/Stratos-Thin.woff") format("woff"),
-    url("../font/Normal/StratosThin/stratos-thin.otf") format("truetype");
+
+    url("../font/Normal/StratosThin/stratos-thin.otf") format("truetype"); */
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -16,6 +18,8 @@
 /* Stratos Extra Light */
 @font-face {
   font-family: "StratosExtraLight";
+  src: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.woff2")
+    format("woff2");
   src: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.eot");
   src: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.eot?#iefix")
       format("embedded-opentype"),
@@ -31,6 +35,7 @@
 /* Stratos Light */
 @font-face {
   font-family: "StratosLight";
+  src: url("../font/Normal/StratosLight/Stratos-Light.woff2") format("woff2");
   src: url("../font/Normal/StratosLight/Stratos-Light.eot");
   src: url("../font/Normal/StratosLight/Stratos-Light.eot?#iefix")
       format("embedded-opentype"),
@@ -44,6 +49,8 @@
 /* Stratos Semi Light */
 @font-face {
   font-family: "StratosSemiLight";
+  src: url("../font/Normal/StratosSemiLight/Stratos-SemiLight.woff2")
+    format("woff2");
   src: url("../font/Normal/StratosSemiLight/Stratos-SemiLight.eot");
   src: url("../font/Normal/StratosSemiLight/Stratos-SemiLight.eot?#iefix")
       format("embedded-opentype"),
@@ -58,6 +65,8 @@
 /* Stratos Regular */
 @font-face {
   font-family: "StratosRegular";
+  src: url("../font/Normal/StratosRegular/Stratos-Regular.woff2")
+    format("woff2");
   src: url("../font/Normal/StratosRegular/Stratos-Regular.eot");
   src: url("../font/Normal/StratosRegular/Stratos-Regular.eot?#iefix")
       format("embedded-opentype"),
@@ -71,6 +80,7 @@
 /* Stratos Meduim */
 @font-face {
   font-family: "StratosMeduim";
+  src: url("../font/Normal/StratosMedium/Stratos-Medium.woff2") format("woff2");
   src: url("../font/Normal/StratosMedium/Stratos-Medium.eot");
   src: url("../font/Normal/StratosMedium/Stratos-Medium.eot?#iefix")
       format("embedded-opentype"),
@@ -84,6 +94,8 @@
 /* Stratos Semi Bold */
 @font-face {
   font-family: "Stratos";
+  src: url("../font/Normal/StratosSemiBold/Stratos-SemiBold.woff2")
+    format("woff2");
   src: url("../font/Normal/StratosSemiBold/Stratos-SemiBold.eot");
   src: url("../font/Normal/StratosSemiBold/Stratos-SemiBold.eot?#iefix")
       format("embedded-opentype"),
@@ -99,6 +111,7 @@
 @font-face {
   font-family: "Stratos";
   /* src: url("../font/Normal/StratosBold/Stratos-Bold.eot"); */
+  src: url("../font/Normal/StratosBold/Stratos-Bold.woff2") format("woff2");
   src: url("../font/Normal/StratosBold/Stratos-Bold.eot#iefix")
       format("embedded-opentype"),
     url("../font/Normal/StratosBold/Stratos-Bold.woff") format("woff"),
@@ -110,6 +123,8 @@
 /* Stratos Extra Bold Italic */
 @font-face {
   font-family: "StratosExtraBold";
+  src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.woff2")
+    format("woff2");
   src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.eot");
   src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.eot#iefix")
       format("embedded-opentype"),
@@ -123,7 +138,8 @@
 
 /* Stratos Black Italic */
 @font-face {
-  font-family: "StratosBlack";
+  font-family: "Stratos";
+  src: url("../font/Normal/StratosBlack/Stratos-Black.woff2") format("woff2");
   src: url("../font/Normal/StratosBlack/Stratos-Black.eot");
   src: url("../font/Normal/StratosBlack/Stratos-Black.eot#iefix")
       format("embedded-opentype"),
@@ -140,6 +156,8 @@
 /* Stratos Thin Italic */
 @font-face {
   font-family: "Stratos";
+  src: url("../font/Italic/StratosThinItalic/Stratos-ThinItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosThinItalic/Stratos-ThinItalic.eot");
   src: url("../font/Italic/StratosThinItalic/Stratos-ThinItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -155,6 +173,8 @@
 /* Stratos Extra Light Italic */
 @font-face {
   font-family: "Stratos";
+  src: url("../font/Italic/StratosExtraLightItalic/Stratos-ExtraLightItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosExtraLightItalic/Stratos-ExtraLight.eot");
   src: url("../font/Italic/StratosExtraLightItalic/stratos-extralight-italic.eot?#iefix")
       format("embedded-opentype"),
@@ -170,6 +190,8 @@
 /* Stratos Light Italic */
 @font-face {
   font-family: "Stratos";
+  src: url("../font/Italic/StratosLightItalic/Stratos-LightItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosLightItalic/Stratos-Light.eot");
   src: url("../font/Italic/StratosLightItalic/Stratos-Light.eot?#iefix")
       format("embedded-opentype"),
@@ -184,6 +206,8 @@
 /* Stratos Semi Light Italic */
 @font-face {
   font-family: "Stratos";
+  src: url("../font/Italic/StratosSemiLightItalic/Stratos-SemiLightItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosSemiLightItalic/Stratos-SemiLightItalic.eot");
   src: url("../font/Italic/StratosSemiLightItalic/Stratos-SemiLightItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -198,7 +222,8 @@
 
 /* Stratos Italic */
 @font-face {
-  font-family: "StratosItalic";
+  font-family: "Stratos";
+  src: url("../font/Italic/StratosItalic/Stratos-Italic.woff2") format("woff2");
   src: url("../font/Italic/StratosItalic/Stratos-Italic.eot");
   src: url("../font/Italic/StratosItalic/Stratos-Italic.eot?#iefix")
       format("embedded-opentype"),
@@ -211,7 +236,9 @@
 
 /* Stratos Meduim Italic */
 @font-face {
-  font-family: "StratosMeduimItalic";
+  font-family: "Stratos";
+  src: url("../font/Italic/StratosMeduimItalic/Stratos-MediumItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosMeduimItalic/Stratos-MediumItalic.eot");
   src: url("../font/Italic/StratosMeduimItalic/Stratos-MediumItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -226,7 +253,9 @@
 
 /* Stratos Semi Bold Italic */
 @font-face {
-  font-family: "StratosSemiBoldItalic";
+  font-family: "Stratos";
+  src: url("../font/Italic/StratosSemiBoldItalic/Stratos-SemiBoldItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosSemiBoldItalic/Stratos-SemiBoldItalic.eot");
   src: url("../font/Italic/StratosSemiBoldItalic/Stratos-SemiBoldItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -241,7 +270,9 @@
 
 /* Stratos Bold Italic */
 @font-face {
-  font-family: "StratosBoldItalic";
+  font-family: "Stratos";
+  src: url("../font/Italic/StratosBoldItalic/Stratos-BoldItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosBoldItalic/Stratos-BoldItalic.eot");
   src: url("../font/Italic/StratosBoldItalic/Stratos-BoldItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -256,7 +287,9 @@
 
 /* Stratos Extra Bold Italic */
 @font-face {
-  font-family: "StratosExtraBoldItalic";
+  font-family: "Stratos";
+  src: url("../font/Italic/StratosExtraBoldItalic/Stratos-ExtraBoldItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosExtraBoldItalic/Stratos-ExtraBoldItalic.eot");
   src: url("../font/Italic/StratosExtraBoldItalic/Stratos-ExtraBoldItalic.eot?#iefix")
       format("embedded-opentype"),
@@ -271,7 +304,9 @@
 
 /* Stratos Black Italic */
 @font-face {
-  font-family: "StratosBlackItalic";
+  font-family: "Stratos";
+  src: url("../font/Italic/StratosBlackItalic/Stratos-BlackItalic.woff2")
+    format("woff2");
   src: url("../font/Italic/StratosBlackItalic/Stratos-BlackItalic.eot");
   src: url("../font/Italic/StratosBlackItalic/Stratos-BlackItalic.eot?#iefix")
       format("embedded-opentype"),
