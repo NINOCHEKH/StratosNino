@@ -110,30 +110,18 @@
 /* Stratos Bold */
 @font-face {
   font-family: "Stratos";
-  /* src: url("../font/Normal/StratosBold/Stratos-Bold.eot"); */
-  src: url("../font/Normal/StratosBold/Stratos-Bold.woff2") format("woff2");
-  src: url("../font/Normal/StratosBold/Stratos-Bold.eot#iefix")
-      format("embedded-opentype"),
-    url("../font/Normal/StratosBold/Stratos-Bold.woff") format("woff"),
-    url("../font/Normal/StratosBold/stratos-bold.otf") format("truetype");
+  src: url("../fonts/Stratos-Bold.woff2") format("woff2");
   font-style: normal;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 /* Stratos Extra Bold Italic */
 @font-face {
-  font-family: "StratosExtraBold";
+  font-family: "Stratos";
   src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.woff2")
     format("woff2");
-  src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.eot");
-  src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.eot#iefix")
-      format("embedded-opentype"),
-    url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.woff") format("woff"),
-    url("../font/Normal/StratosExtraBold/stratos-extrabold.otf")
-      format("truetype");
   font-style: normal;
-  font-weight: 900;
-  font-display: swap;
+  font-weight: 800;
 }
 
 /* Stratos bl */
