@@ -49,8 +49,10 @@ body::after {
   opacity: 50%;
 }
 #section-1 p {
+  font-family: "Stratos";
   font-weight: 100;
-  font-family: "StratosThin";
+  font-style: normal;
+  font-display: swap;
 }
 /* .navigation2 {
   margin: 0px 217px;
