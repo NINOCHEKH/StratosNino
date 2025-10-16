@@ -20,16 +20,10 @@
   font-family: "StratosExtraLight";
   src: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.woff2")
     format("woff2");
-  src: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.eot");
-  src: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.woff")
-      format("woff"),
-    url("../font/Normal/StratosExtraLight/stratos-extralight.otf")
-      format("truetype");
+  scr: url("../font/Normal/StratosExtraLight/Stratos-ExtraLight.woff")
+    format("woff");
   font-style: normal;
   font-weight: 200;
-  font-display: swap;
 }
 
 /* Stratos Light */
@@ -115,7 +109,7 @@
   font-weight: bold;
 }
 
-/* Stratos Extra Bold Italic */
+/* Stratos Extra Bold  */
 @font-face {
   font-family: "Stratos";
   src: url("../font/Normal/StratosExtraBold/Stratos-ExtraBold.woff2")
